@@ -112,3 +112,59 @@ header {
   width: 50%;
 }
 /* banner section end */
+
+/* product container start */
+.Products-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1400px;
+  margin: 50px auto 0;
+  min-height: 400px;
+  gap: 15px;
+}
+
+.single-product {
+
+  /* width: 25%; */
+  background-color: rgb(216, 219, 223);
+  border-radius: 10px;
+  padding: 0 10px;
+  box-shadow: 2px 2px 4px mediumorchid;  
+}
+.single-product img {
+  width: 65%;
+  margin: 0 auto;
+  display: block;
+}
+.product-icon-name-container {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.p-icon {
+  font-size: 30px;
+  background-color: aqua;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+  color: rgb(180, 6, 93);
+}
+/* discount section */
+.discount-section{
+background-color: #9376e0;
+min-height: 500px;
+padding: 20px 0;
+
+}
+.discount-container{
+width: 1400px;
+
+}
+.discount-img{
+  width: 50%;
+  
+}
+.discount-description{
+  width: 50%;
+}

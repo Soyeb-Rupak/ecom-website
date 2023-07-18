@@ -1,3 +1,24 @@
+@media screen and (max-width: 900px){
+  .Products-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 750px){
+
+  .Products-container {
+    grid-template-columns:repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px){
+
+  .Products-container {
+    grid-template-columns:repeat(2, 1fr);
+  }
+}
+
 @media screen and (max-width: 400px) {
   .nav-container {
     flex-direction: column;
@@ -38,3 +59,13 @@
 
 }
 .banner-img{ margin-top: 10px;}
+
+
+/* Banner responsive Ends */
+
+/* product container start */
+.Products-container {
+  grid-template-columns: 1fr;
+}
+/* product container end */
+}

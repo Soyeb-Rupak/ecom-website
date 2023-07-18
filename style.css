@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+/* nav started */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: rgb(134, 109, 156);
+}
+
+.logo-section {
+  width: 50%;
+  display: flex;
+}
+.logo-section img {
+  width: 50px;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.logo-section p {
+  font-size: 30px;
+  font-weight: 700;
+}
+.hive-text {
+  color: rgb(241, 197, 238);
+}
+.menu-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-section a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: aliceblue;
+}
+
+.menu-section .login-btn {
+  background-color: rgb(241, 197, 238);
+  border-radius: 05px;
+  color: black;
+  padding: 10px 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Nav end */

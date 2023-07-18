@@ -15,4 +15,26 @@
     width: 100%;
     margin-bottom: 10px;
   }
+/* Nav responsive ends  */
+
+/* Banner responsive starts */
+
+  .banner-container{
+    flex-direction: column;
+  }
+  .banner-info, .banner-img{
+    width: 100%;
+  }
+
+  .banner-info p {
+    font-size: 25px;
+    font-family: "Dancing Script", cursive;
+  }
+  .banner-info h1 {
+    font-size: 30px;
 }
+.fa-brands {
+  font-size: 30px;
+
+}
+.banner-img{ margin-top: 10px;}
